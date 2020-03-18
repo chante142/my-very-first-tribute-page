@@ -1,14 +1,13 @@
-
 /* body {
     text-align: center;
 }
 h1 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 50px;
-    background-color: grey;
+    background-color:purple;
 }
 h2 {
-    color: blue;
+    color: yellow;
     font-size: 20px;
 }
 #image {
@@ -24,41 +23,39 @@ p {
 .tribute-link {
     font-size: 20px;
 } */
-body {
-  background-image: url("http://wallpapercave.com/wp/KMptdAR.png");
-}
+  body {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTrVPZJE78SxIO9lf1HkzLgRjx5NntC1BmmyuDlJgdiCqF2A12");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  
+
 .jumbotron {
-  color: white;
+  color:blueviolet;
   text-align: center;
-  background-image: url("https://wolfcrow.com/wp-content/uploads/2013/08/RedGradientRec709-960x540.jpg");
+  background-image: black;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
 }
+
 #tribute-info {
-  color: white;
+  color:rebeccapurple;
 }
 #tl {
-  color: white;
+  color:black;
 }
 #career {
   color: white;
 }
 #img-caption {
-  color: white;
+  color:blue;
   text-align: center;
+
 }
 #image {
   display: block;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

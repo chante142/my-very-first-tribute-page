@@ -1,30 +1,119 @@
 <!DOCTYPE html>
 <html>
   <head>
-   <title>Tribute</title>
-   <link rel="stylesheet"href="tribute.css">
+    <title>Tribute</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="tribute.css" />
   </head>
   <body>
-    <div id = "main">
- <h1 id="title">Chris Brown</h1>
-         <h2> An American singer, songwriter, rapper, dancer, actor, and record producer.</h2>
-      
-         <div id="img-div">
-           <img
-           id="image"src="https://i.pinimg.com/originals/52/be/db/52bedb7f3aed1b05ef4737ce49a099c6.jpg"alt="Chris Brown"
-             <figcaption id="img-caption">Chris Brown is a all time high performer</figcaption>
-
-      
-         </div>
-            <p id ="image-caption"> 
-          Chris Brown has sold over 100 million records worldwide, making him one of the world's best-selling music artists </p>
-      
-        <p id= "tribute-info">Christopher Maurice Brown was born on May 5, 1989,[9] in the small town of Tappahannock, Virginia,[10] to Joyce Hawkins, a former day care center director, and Clinton Brown, a corrections officer at a local prison.[11][12] He has an older sister, Lytrell Bundy,[13] who works in a bank.[11] Music was always present in Brown's life beginning in his childhood. He would listen to soul albums that his parents owned,[12] and eventually began to show interest in the hip-hop scene. </p>
-      
-        <p>Brown has sold over 100 million records worldwide, making him one of the world's best-selling music artists. Throughout his career, Brown has won several awards, including a Grammy Award, 15 BET Awards, four Billboard Music Awards, and six Soul Train Music Awards. According to Billboard, Brown has the seventh most Billboard Hot 100 entries with 93.[7][8] Brown has pursued an acting career, and his personal life has been publicized. In 2007, he made his on-screen feature film debut in Stomp the Yard, and appeared as a guest on the television series The O.C. Other films Brown has appeared in include This Christmas (2007), Takers (2010), Think Like a Man (2012), and Battle of the Year (2013). </p>
-        <a href="https://en.wikipedia.org/wiki/Chris_Brown" target="_blank" id="tribute-link">Click here For Further Information about Chris Brown</a>
-         </div>
-         <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+​
+    <div class="container" id="main">
+      <div class="container">
+          <div class="row">
+              <div class="col-sm-12">
+                  <div class="jumbotron">
+                      <h1 class="display-4" id="title">Chris Brown</h1>
+                      <p class="lead">AKA "Breeezy"</p>
+                      <!-- <hr class="my-4"> -->
+                      <!-- <p>It uses utility classes for typography and spacing to space content out within the larger
+                      container.</p>
+                  <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a> -->
+                  </div>
+              </div>
+              <div class="row">
+                  <div class="col-sm-3"></div>
+                  <div class="col-sm-6" id="img-div">
+                      <img class="img-fluid" src="https://i.pinimg.com/originals/52/be/db/52bedb7f3aed1b05ef4737ce49a099c6.jpg"
+                          id="image" alt="chris brown">
+                      <p id="img-caption">Chris Brown is a all time high performer</p>
+                  </div>
+                  <div class="col-sm-3"></div>
+              </div>
+              <div class="w-100"></div>
+              <div class="row">
+                  <h2 id="career">Career</h2>
+              </div>
+              <div class="container" id="tribute-info">
+                  <div class="row">
+                      <div class="col">
+                        <p>
+                          Chris Brown has sold over 100 million records worldwide, making him
+                          one of the world's best-selling music artists
+                        </p>
+                      </div>
+                  </div>
+                  <div class="row">
+                      <div class="col">
+                        <p>
+                          Christopher Maurice Brown was born on May 5, 1989,[9] in the small
+                          town of Tappahannock, Virginia,[10] to Joyce Hawkins, a former day
+                          care center director, and Clinton Brown, a corrections officer at a
+                          local prison.[11][12] He has an older sister, Lytrell Bundy,[13] who
+                          works in a bank.[11] Music was always present in Brown's life
+                          beginning in his childhood. He would listen to soul albums that his
+                          parents owned,[12] and eventually began to show interest in the
+                          hip-hop scene.
+                        </p>
+                      </div>
+                  </div>
+                  <div class="row">
+                      <div class="col">
+                        <p>
+                          Brown has sold over 100 million records worldwide, making him one of the
+                          world's best-selling music artists. Throughout his career, Brown has won
+                          several awards, including a Grammy Award, 15 BET Awards, four Billboard
+                          Music Awards, and six Soul Train Music Awards. According to Billboard,
+                          Brown has the seventh most Billboard Hot 100 entries with 93.[7][8]
+                          Brown has pursued an acting career, and his personal life has been
+                          publicized. In 2007, he made his on-screen feature film debut in Stomp
+                          the Yard, and appeared as a guest on the television series The O.C.
+                          Other films Brown has appeared in include This Christmas (2007), Takers
+                          (2010), Think Like a Man (2012), and Battle of the Year (2013).
+                        </p>
+                      </div>
+                  </div>
+​
+                  </div>
+                  <div class="row">
+                      <h3 id="tl">Click here For Further Information about Chris Brown <a id="tribute-link" target="_blank"
+                        href="https://en.wikipedia.org/wiki/Chris_Brown">Wikipedia entry.</a></h3>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+​
+​
+​
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
+
+
+
+
+
+
+
+
 
