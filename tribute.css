@@ -1,36 +1,62 @@
-body {
-  text-align: center;
-  
-  
+
+/* body {
+    text-align: center;
 }
 h1 {
-  font-family: Arial, Helvetica, sans-serif;
-  text-align: center;
-  background-color:red
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    background-color: grey;
 }
 h2 {
-  color: blue;
-  font-size: 20px
+    color: blue;
+    font-size: 20px;
 }
-#image{
-  height: 300px;
-  max-width: 100%;
-  text-align: center;
-}
-
-#img-caption {
-  font-family: Arial, Helvetica, sans-serif;
-  text-align: center;
+#image {
+    height: 250px;
+    display: block;
+    max-width: 100%;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    
 }
 p {
-font-family: helvetica;
+    font-family: "Courier New", Courier, monospace;
+}
+.tribute-link {
+    font-size: 20px;
+} */
+body {
+  background-image: url("http://wallpapercave.com/wp/KMptdAR.png");
+}
+.jumbotron {
+  color: white;
+  text-align: center;
+  background-image: url("https://wolfcrow.com/wp-content/uploads/2013/08/RedGradientRec709-960x540.jpg");
+}
+#tribute-info {
+  color: white;
+}
+#tl {
+  color: white;
+}
+#career {
+  color: white;
+}
+#img-caption {
+  color: white;
+  text-align: center;
+}
+#image {
+  display: block;
 }
 
-.tribute-link
 
-{
-  font-size: 25px;
-}
+
+
+
+
+
+
+
 
 
 
